@@ -57,9 +57,9 @@ const usuario =
         },
 
     ]
-const correo = usuario.some(usuario => usuario.email === 'rosario@gmail.com')
-console.log(correo)
-console.log(usuario[1])
+const resp = usuario.filter(x => x.email === 'rosario@gmail.com')
+console.log(resp)
+
 
 
 // 5)En el siguiente arreglo: [1,6,3,4,2,56,10], ordenarlos de manera descendente
