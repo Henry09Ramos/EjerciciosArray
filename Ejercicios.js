@@ -14,9 +14,9 @@ console.log(`El resultado es de: ${result1}`)
 
 //2)Crear un array que solo traiga elementos que tengan solo 6 caracteres
 
-const frutas = ["Manzanas", "Peras", "Uvas", "Melocotones", "Piñas"]
+const frutas = ["Manzana", "Peras", "Uvas","Fresas" ,"Melocoton", "Sandía"]
 
-const result = frutas.filter((x) => x.length > 6)
+const result = frutas.filter((x) => x.length === 6)
 console.log(`Los elementos que contienen 6 caracteres son: ${result}`)
 
 
